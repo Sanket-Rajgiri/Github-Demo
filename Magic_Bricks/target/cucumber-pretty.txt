@@ -1,0 +1,7 @@
+
+Scenario: Top Menu Options           # src/test/resources/Feature_Files/File01_TS_01.feature:3
+  When One_Driver is loaded          # com.stepDefinitions.StepDefinition01_TS_01.one_driver_is_loaded()
+  When One_Property File is loaded   # com.stepDefinitions.StepDefinition01_TS_01.one_property_file_is_loaded()
+  Then One_Directed to the site      # com.stepDefinitions.StepDefinition01_TS_01.one_directed_to_the_site()
+  And One_Click on Magic Bricks Logo # com.stepDefinitions.StepDefinition01_TS_01.one_click_on_magic_bricks_logo()
+  Then One_Click on Location         # com.stepDefinitions.StepDefinition01_TS_01.one_click_on_location()
